@@ -24,7 +24,7 @@ function Home() {
             <div className="button-group flex flex-col items-center text-[18px] text-heading max-[1100px]:my-[10px] max-[1100px]:mx-0 max-[712px]:m-[10px]">
               <div className="button w-[320px] h-20 mt-12 mx-24 mb-[10px] rounded-[100px] text-center content-center z-[1] text-paper text-[28px] bg-brand opacity-100 max-[1100px]:w-[90%] max-[1100px]:h-[60px] max-[1100px]:my-5 max-[1100px]:mx-0 max-[1100px]:text-[20px] max-[712px]:w-[200px] max-[712px]:h-[60px] max-[712px]:m-5 max-[712px]:text-[20px] hover:opacity-80" id="company">
              
-                <a className="no-underline text-inherit" href="https://forms.gle/yxdVtcHmMG8gGMJh8" target="_blank" rel="noreferrer">
+                <a className="no-underline text-inherit" href="https://docs.google.com/forms/d/e/1FAIpQLSfuXbzwsxynAxVVITGtdC6QqURwwRZ_k_Xp68a8RF2IX1akrw/viewform?usp=dialog" target="_blank" rel="noreferrer">
                 Company Registration</a>
               </div>
               <p className="deadline m-0 max-[1100px]:text-[16px]">Registration Open</p>
