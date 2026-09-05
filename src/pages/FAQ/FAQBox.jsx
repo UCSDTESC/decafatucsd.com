@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './FAQBox.css';
 
 const FAQBox = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,17 +14,17 @@ const FAQBox = ({ question, answer }) => {
   }, [isOpen]);
 
   return (
-    <div className="faq-box">
-      <div className="faq-question" onClick={toggleOpen}>
-        <h3>{question}</h3>
-        <span className="faq-toggle">{isOpen ? '−' : '+'}</span>
+    <div className="border border-[#ddd] rounded-[5px] my-[10px] overflow-hidden text-black text-[24px] w-full max-w-[1000px] max-[768px]:text-[18px] max-[768px]:w-full">
+      <div className="flex justify-between cursor-pointer p-[10px] bg-[#8C74B7] rounded-[5px] max-[768px]:p-2" onClick={toggleOpen}>
+        <h3 className="m-0 max-[768px]:text-[20px]">{question}</h3>
+        <span className="text-[1.5em] leading-none max-[768px]:text-[1.2em]">{isOpen ? '−' : '+'}</span>
       </div>
       <div
-        className="faq-answer"
+        className="p-[10px] bg-[#8C74B7] border-t border-[#ddd] rounded-b-[5px] transition-[height] duration-300 ease-out overflow-hidden max-[768px]:p-2"
         ref={contentRef}
         style={{ height }}
       >
-        <p>{answer}</p>
+        <p className="my-[1em] max-[768px]:text-[18px]">{answer}</p>
       </div>
     </div>
   );

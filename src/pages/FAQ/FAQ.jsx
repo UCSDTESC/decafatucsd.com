@@ -1,4 +1,3 @@
-import "./FAQ.css";
 import FAQBox from "./FAQBox";
 import Border from "../../assets/Border.svg";
 function FAQ() {
@@ -57,32 +56,32 @@ function FAQ() {
   ];
 
   return (
-    <div className="faq" id="faq">
-      <img src={Border} alt=""></img>
-      <div className="title">
+    <div className="faq bg-[#FCFCFC] w-full [font-family:'Lalezar',system-ui] font-normal not-italic flex flex-col" id="faq">
+      <img className="z-[2]" src={Border} alt=""></img>
+      <div className="title flex bg-[#D8C1F7] w-full h-[131px] text-[64px] items-center justify-center [text-shadow:0px_0px_150px_rgb(0,0,0)] mt-[-20px] pt-[30px] z-[1] max-[768px]:text-[40px] max-[768px]:w-auto max-[768px]:text-center">
         <p>Frequently Asked Questions</p>
       </div>
-      <div className="content">
-        <div className="content-g">
-          <span>General</span>
+      <div className="content bg-[#D8C1F7] flex flex-col items-center justify-center px-[234px] mb-[-20px] pb-16 max-[768px]:px-4">
+        <div className="content-g flex flex-col items-center justify-center pb-9 [&_div]:bg-[#9A8FBC] max-[768px]:pb-5">
+          <span className="text-[36px] max-[768px]:text-[28px]">General</span>
           {generalFaqs.map((faq, index) => (
             <FAQBox key={index} question={faq.question} answer={faq.answer} />
           ))}
         </div>
-        <div className="content-r">
-          <span>Recruiters</span>
+        <div className="content-r flex flex-col items-center justify-center pb-9 [&_div]:bg-[#8C74B7] max-[768px]:pb-5">
+          <span className="text-[36px] max-[768px]:text-[28px]">Recruiters</span>
           {recruiterFaqs.map((faq, index) => (
             <FAQBox key={index} question={faq.question} answer={faq.answer} />
           ))}
         </div>
-        <div className="content-s">
-          <span>Students</span>
+        <div className="content-s flex flex-col items-center justify-center pb-9 [&_div]:bg-[#7B639B] max-[768px]:pb-5">
+          <span className="text-[36px] max-[768px]:text-[28px]">Students</span>
           {studentFaqs.map((faq, index) => (
             <FAQBox key={index} question={faq.question} answer={faq.answer} />
           ))}
         </div>
       </div>
-      <img src={Border} alt=""></img>
+      <img className="z-[2]" src={Border} alt=""></img>
     </div>
   );
 }
