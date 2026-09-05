@@ -52,6 +52,7 @@ The site is a single-page layout. Sections are stacked in `src/App.jsx` and the 
 | FAQ questions and answers | `src/pages/FAQ/FAQ.jsx` |
 | Footer / social links | `src/pages/Footer/Footer.jsx` |
 | Page title and meta description | `index.html` |
+| Colors / theme | `@theme` tokens in `src/index.css` (also used by inlined SVGs) |
 | Global CSS / Tailwind | `src/index.css` |
 
 Static assets in `public/` are available at the site root (for example `/logos/TSMC-logo.png`). SVGs imported from `src/assets/` are bundled by Vite.

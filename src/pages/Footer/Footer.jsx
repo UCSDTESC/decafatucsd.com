@@ -1,4 +1,5 @@
-import Logo from "../../assets/TESCLogo.svg";
+import logo from "../../assets/TESCLogo.svg?raw";
+import InlineSvg from "../../components/InlineSvg";
 
 const iconClass = "w-[1em] h-[1em] fill-current";
 
@@ -46,27 +47,27 @@ function Footer() {
   const contactIcons = (
     <ul className="contact-items flex gap-[2.5vw] m-0 p-0">
       <li className="contact-item text-[2.5vw] font-medium list-none">
-        <a href="mailto:contact@tesc.ucsd.edu" className="contact-icon no-underline text-black" aria-label="Email">
+        <a href="mailto:contact@tesc.ucsd.edu" className="contact-icon no-underline text-paper" aria-label="Email">
           <IconEmail />
         </a>
       </li>
       <li className="contact-item text-[2.5vw] font-medium list-none">
-        <a href="https://instagram.com/tesc.at.ucsd/" className="contact-icon no-underline text-black" aria-label="Instagram">
+        <a href="https://instagram.com/tesc.at.ucsd/" className="contact-icon no-underline text-paper" aria-label="Instagram">
           <IconInstagram />
         </a>
       </li>
       <li className="contact-item text-[2.5vw] font-medium list-none">
-        <a href="https://www.linkedin.com/company/tescatucsd/" className="contact-icon no-underline text-black" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/company/tescatucsd/" className="contact-icon no-underline text-paper" aria-label="LinkedIn">
           <IconLinkedin />
         </a>
       </li>
       <li className="contact-item text-[2.5vw] font-medium list-none">
-        <a href="https://x.com/UCSDTESC/" className="contact-icon no-underline text-black" aria-label="X">
+        <a href="https://x.com/UCSDTESC/" className="contact-icon no-underline text-paper" aria-label="X">
           <IconX />
         </a>
       </li>
       <li className="contact-item text-[2.5vw] font-medium list-none">
-        <a href="https://discord.gg/C9w2cShb4B" className="contact-icon no-underline text-black" aria-label="Discord">
+        <a href="https://discord.gg/C9w2cShb4B" className="contact-icon no-underline text-paper" aria-label="Discord">
           <IconDiscord />
         </a>
       </li>
@@ -74,18 +75,22 @@ function Footer() {
   );
 
   return (
-    <div className="footer bg-[#FCFCFC] w-full [font-family:'Lalezar',system-ui] font-normal not-italic flex flex-col select-none">
-      <div className="contact flex flex-col bg-[#D8C1F7] w-full h-[200px] text-[48px] items-center justify-center mt-[-20px] pt-5 z-[1] select-text max-[768px]:text-[32px] max-[768px]:h-auto max-[768px]:py-5 max-[768px]:pt-10" id="contact">
+    <div className="footer bg-page w-full font-display font-normal not-italic flex flex-col select-none">
+      <div className="contact flex flex-col bg-banner text-paper w-full h-[200px] text-[48px] items-center justify-center mt-[-20px] pt-5 z-[1] select-text max-[768px]:text-[32px] max-[768px]:h-auto max-[768px]:py-5 max-[768px]:pt-10" id="contact">
+        <div className="section-content flex flex-col items-center">
         <p className="m-0 text-center">Contact us</p>
         {contactIcons}
+        </div>
       </div>
-      <div className="tesc bg-black h-[485px] flex flex-col items-center justify-center text-white px-5 text-center max-[768px]:h-auto max-[768px]:p-[5dvw]">
-        <p id="organized" className="[font-family:'League_Spartan',sans-serif] [font-optical-sizing:auto] not-italic text-[32px] max-[768px]:text-[24px]">organized by</p>
-        <img id="logo" className="my-5 max-[768px]:w-4/5 max-[768px]:h-auto" src={Logo} alt="TESC" width="522" height="59" loading="lazy" decoding="async"></img>
-        <p id="desc" className="text-[24px] max-w-[1080px] text-center mt-5 max-[768px]:text-[18px]">
+      <div className="tesc bg-banner h-[485px] flex flex-col items-center justify-center text-paper px-5 text-center max-[768px]:h-auto max-[768px]:p-[5dvw]">
+        <div className="section-content flex flex-col items-center">
+        <p id="organized" className="font-body [font-optical-sizing:auto] not-italic text-[32px] max-[768px]:text-[24px]">organized by</p>
+        <InlineSvg markup={logo} title="TESC" className="my-5 w-[522px] max-w-full max-[768px]:w-4/5" />
+        <p id="desc" className="text-[24px] text-center mt-5 max-[768px]:text-[18px]">
           The Triton Engineering Student Council empowers UC San Diego engineering students by
           connecting them with impactful communities, projects, and career building opportunities.
         </p>
+        </div>
       </div>
     </div>
   );
