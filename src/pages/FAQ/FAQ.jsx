@@ -57,8 +57,8 @@ function FAQ() {
 
   return (
     <div className="faq bg-[#FCFCFC] w-full [font-family:'Lalezar',system-ui] font-normal not-italic flex flex-col" id="faq">
-      <img className="z-[2]" src={Border} alt=""></img>
-      <div className="title flex bg-[#D8C1F7] w-full h-[131px] text-[64px] items-center justify-center [text-shadow:0px_0px_150px_rgb(0,0,0)] mt-[-20px] pt-[30px] z-[1] max-[768px]:text-[40px] max-[768px]:w-auto max-[768px]:text-center">
+      <img className="z-[2] w-full h-auto" src={Border} alt="" width="1920" height="125" loading="lazy" decoding="async"></img>
+      <div className="title flex bg-[#D8C1F7] w-full h-[131px] text-[64px] items-center justify-center mt-[-20px] pt-[30px] z-[1] max-[768px]:text-[40px] max-[768px]:w-auto max-[768px]:text-center">
         <p>Frequently Asked Questions</p>
       </div>
       <div className="content bg-[#D8C1F7] flex flex-col items-center justify-center px-[234px] mb-[-20px] pb-16 max-[768px]:px-4">
@@ -81,7 +81,7 @@ function FAQ() {
           ))}
         </div>
       </div>
-      <img className="z-[2]" src={Border} alt=""></img>
+      <img className="z-[2] w-full h-auto" src={Border} alt="" width="1920" height="125" loading="lazy" decoding="async"></img>
     </div>
   );
 }

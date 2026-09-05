@@ -121,7 +121,6 @@ Install with `npm install`. The lockfile is `package-lock.json`.
 | [react](https://www.npmjs.com/package/react) / [react-dom](https://www.npmjs.com/package/react-dom) | UI library | [react.dev](https://react.dev/) |
 | [tailwindcss](https://www.npmjs.com/package/tailwindcss) | Utility CSS (v4) | [Tailwind docs](https://tailwindcss.com/docs) |
 | [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite) | Tailwind Vite plugin | [Install with Vite](https://tailwindcss.com/docs/installation/using-vite) |
-| [react-icons](https://www.npmjs.com/package/react-icons) | Footer social icons | [react-icons](https://react-icons.github.io/react-icons/) |
 
 ### Build / tooling
 

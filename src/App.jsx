@@ -1,17 +1,21 @@
+import { lazy, Suspense } from 'react';
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Sponsor from './pages/Sponsor/Sponsor';
-import FAQ from './pages/FAQ/FAQ';
-import Footer from './pages/Footer/Footer';
+
+const About = lazy(() => import('./pages/About/About'));
+const Sponsor = lazy(() => import('./pages/Sponsor/Sponsor'));
+const FAQ = lazy(() => import('./pages/FAQ/FAQ'));
+const Footer = lazy(() => import('./pages/Footer/Footer'));
 
 function App() {
   return (
     <>
-      <Home/>
-      <About/>
-      <Sponsor/>
-      <FAQ/>
-      <Footer/>
+      <Home />
+      <Suspense fallback={null}>
+        <About />
+        <Sponsor />
+        <FAQ />
+        <Footer />
+      </Suspense>
     </>
   );
 }

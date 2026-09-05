@@ -20,6 +20,10 @@ function Header() {
           src={CoffeeMug}
           alt="coffee_mug"
           className="mt-0 mr-[-32px] z-0 max-[768px]:w-16 max-[768px]:mr-[-20px]"
+          width="97"
+          height="97"
+          fetchPriority="high"
+          decoding="async"
         >
         </img>
         <p className="text-[67px] my-auto text-[#65558f] max-[768px]:text-[48px] max-[768px]:h-auto max-[768px]:pt-[10px]">DECAF</p>
