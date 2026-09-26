@@ -24,7 +24,7 @@ function FAQ() {
     {
       question: "How can my company participate?",
       answer:
-        "Companies interested in participating can find the registration link on the home page. The deadline for registration is Obtober 1st, 2026."
+        "Companies interested in participating can find the registration link on the home page. The deadline for registration is October 1st, 2026."
     },
     {
       question: "Are there any costs associated with participating?",
@@ -42,7 +42,7 @@ function FAQ() {
     {
       question: "How can I participate in DECaF?",
       answer:
-        "Students can register for DECaF through our website. Details on registration will be available closer to the event date."
+        "Students can register for DECaF through the Student Registration button on the home page."
     },
     {
       question: "What can I expect at DECaF?",
