@@ -24,11 +24,12 @@
   --color-sponsor-annual: hsl(218, 69%, 90%);
   --color-sponsor-platinum: hsl(270, 70%, 90%);
   --color-sponsor-gold: #fde475;
-  --color-sponsor-silver: #C0C0C0;
+  --color-sponsor-silver: #f0f0f0;
   --font-display: "Lalezar", system-ui, sans-serif;
   --font-body: "League Spartan", sans-serif;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   --font-mono: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
