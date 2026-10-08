@@ -8,11 +8,6 @@
   ],
   "Platinum": [
     {
-      "name": "RTX",
-      "Logo": "/logos/Logo-RTX.png",
-      "Website": "https://www.rtx.com"
-    },
-    {
       "name": "Los Angeles Department of Water and Power",
       "Logo": "/logos/Logo-LADWP.png",
       "Website": "https://www.ladwp.com"
@@ -30,19 +25,26 @@
   ],
   "Gold": [
     {
-      "name": "Viasat",
-      "Logo": "/logos/Viasat_2018_Gradient_Web.png",
-      "Website": "https://www.viasat.com"
+      "name": "RTX",
+      "Logo": "/logos/Logo-RTX.png",
+      "Website": "https://www.rtx.com"
     },
     {
-      "name": "Skyworks Solutions",
-      "Logo": "/logos/Skyworks_logo.png",
-      "Website": "https://www.skyworksinc.com"
+      "name": "KLA",
+      "Logo": "/logos/kla-logo.png",
+      "Website": "https://www.kla.com"
+    }
+  ],
+  "Silver": [
+    {
+      "name": "F5",
+      "Logo": "/logos/F5_Networks_logo.svg",
+      "Website": "https://www.f5.com"
     },
     {
-      "name": "Sony Interactive Entertainment - PlayStation",
-      "Logo": "/logos/Logo-SonyPS.png",
-      "Website": "https://www.playstation.com"
+      "name": "Veeva Systems",
+      "Logo": "/logos/Veeva_Systems_Logo.svg",
+      "Website": "https://www.veeva.com"
     },
     {
       "name": "Pillsbury Winthrop Shaw Pittman",
@@ -50,9 +52,39 @@
       "Website": "https://www.pillsburylaw.com"
     },
     {
-      "name": "L3Harris",
-      "Logo": "/logos/L3Harris_Logo.png",
-      "Website": "https://www.l3harris.com"
+      "name": "Sony Interactive Entertainment - PlayStation",
+      "Logo": "/logos/Logo-SonyPS.png",
+      "Website": "https://www.playstation.com"
+    },
+    {
+      "name": "Epic",
+      "Logo": "/logos/Epic.png",
+      "Website": "https://www.epic.com"
+    },
+    {
+      "name": "ACCIONA",
+      "Logo": "/logos/Acciona_logo.svg",
+      "Website": "https://www.acciona.com"
+    },
+    {
+      "name": "Everpure",
+      "Logo": "/logos/Everpure_Logo.png",
+      "Website": "https://www.everpuredata.com"
+    },
+    {
+      "name": "Salesforce ",
+      "Logo": "/logos/Salesforce-logo.svg",
+      "Website": "https://www.salesforce.com"
+    },
+    {
+      "name": "Viasat",
+      "Logo": "/logos/Viasat_2018_Gradient_Web.png",
+      "Website": "https://www.viasat.com"
+    },
+    {
+      "name": "Thermo Fisher",
+      "Logo": "/logos/Thermo_Fisher_Scientific_logo.svg",
+      "Website": "https://www.thermofisher.com"
     }
   ]
 }
