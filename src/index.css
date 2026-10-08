@@ -24,6 +24,7 @@
   --color-sponsor-annual: hsl(218, 69%, 90%);
   --color-sponsor-platinum: hsl(270, 70%, 90%);
   --color-sponsor-gold: #fde475;
+  --color-sponsor-silver: #C0C0C0;
   --font-display: "Lalezar", system-ui, sans-serif;
   --font-body: "League Spartan", sans-serif;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

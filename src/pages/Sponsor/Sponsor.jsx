@@ -4,9 +4,10 @@ const cardClass =
   "sponsor-item h-[188px] w-[282px] rounded-[30px] m-[10px] text-center text-[25px] flex flex-col justify-center items-center text-sponsor-label p-[15px] border border-line transition-transform duration-300 ease-in-out hover:scale-105 max-[768px]:h-[150px] max-[768px]:w-[200px] max-[768px]:text-[20px] max-[768px]:m-[15px]";
 
 const tierClass = {
-  Annual: `${cardClass} bg-sponsor-annual`,
-  Platinum: `${cardClass} bg-sponsor-platinum`,
+  // Annual: `${cardClass} bg-sponsor-annual`,
+  // Platinum: `${cardClass} bg-sponsor-platinum`,
   Gold: `${cardClass} bg-sponsor-gold`,
+  Silver: `${cardClass} bg-sponsor-silver`,
 };
 
 function SponsorTier({ title, tier }) {
@@ -47,9 +48,10 @@ function Sponsor() {
       </div>
       <div className="content bg-page max-w-full min-h-[750px] flex flex-col items-center justify-center px-6 font-body text-ink text-[36px] max-[768px]:p-[25px] max-[768px]:text-[28px]">
         <div className="section-content flex flex-col items-center">
-        <SponsorTier title="Annual" tier="Annual" />
-        <SponsorTier title="Platinum" tier="Platinum" />
-        <SponsorTier title="Gold" tier="Gold" />
+          {/* <SponsorTier title="Annual" tier="Annual" /> */}
+          {/* <SponsorTier title="Platinum" tier="Platinum" /> */}
+          <SponsorTier title="Gold" tier="Gold" />
+          <SponsorTier title="Silver" tier="Silver" />
         </div>
       </div>
     </div>
